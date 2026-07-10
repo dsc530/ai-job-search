@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Daniel Cumbal
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -10,32 +9,35 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% Force name and section headings to render in moderncv blue (color1).
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Daniel Cumbal - CV},
     pdfpagemode=FullScreen,
 }
-\usepackage[scale=0.80]{geometry}
+\usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% Personal data
+\name{Daniel}{Cumbal}
+\address{Quito, Ecuador}{}{}
+\phone[mobile]{+593984256115}
+\email{dsc\_530@hotmail.com}
+\extrainfo{%
+  \href{https://www.linkedin.com/in/daniel-cumbal/}{LinkedIn} \textbar{}
+  \href{https://github.com/dsc530}{GitHub} \textbar{}
+  \href{https://dsc530.github.io/}{Portfolio}
+}
 
 \begin{document}
 
@@ -46,7 +48,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Electronic Engineer with a 9-month Data Science bootcamp (TripleTen, 2025) and hands-on experience applying supervised ML models to real business problems. Proficient in Python (Pandas, Scikit-learn, LightGBM), SQL, and Power BI. Background in technical support, process automation, and business operations provides a practical understanding of how data solutions integrate into real-world workflows. Seeking a first formal role in data to apply and grow these skills in a collaborative environment.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +58,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Machine Learning}: Supervised classification and regression (Logistic Regression, Decision Tree, Random Forest, XGBoost, LightGBM, CatBoost, KNN); unsupervised learning; time series; NLP basics; computer vision basics
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data Wrangling \& Analysis}: Python (Pandas, NumPy), SQL/SQL Server, data preprocessing, feature engineering, SMOTE, encoding, scaling
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Visualization \& BI}: Power BI (interactive dashboards), Matplotlib, Seaborn, Plotly
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Automation \& Tools}: n8n (workflow automation), Python scripting (web scraping, reporting), Git, GitHub
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Software \& Productivity}: Microsoft Excel, Word, PowerPoint; Java (basic); HTML/CSS (basic); LabVIEW
 
 \end{itemize}
 
@@ -76,32 +78,64 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2023--Present}{General Manager}{Itecnologia EC (Own Business)}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Migrated business data to a SQL Server database connected with an n8n workflow, enabling automated data access and management
+    \item Developed an e-commerce platform for the business using Claude Code, delivering a production-ready solution
+    \item Managed client requirements and provided personalized hardware/software technical assistance
+    \item Analyzed revenue and expense sources to improve profit margins
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2022--Sep 2023}{Cell Repair Technician}{Smartbuy}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Analyzed recurring mobile device failures, identifying patterns to reduce diagnostic time
+    \item Developed customer-facing repair guides, improving response time for common repairs
+    \item Prepared management reports to minimize new equipment review time and prevent stockouts
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Oct 2015--Jan 2020}{Support Engineer}{Uniscan Cia. Ltda.}{Quito, Ecuador}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Designed and implemented training programs that reduced technical assistance requests by \textbf{50\%}
+    \item Led support engineering on a government contract (Registro Civil, 2017--2019): preventive and corrective maintenance of Zebra ZXP7 ID-card printers --- contract value \textbf{\$207,503 USD}
+    \item Managed quality testing with government and private institutions to reduce incidents
+    \item Provided first-line technical support and collaborated with suppliers on high-rotation replacement components
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{2025}{Customer Churn Prediction}{\href{https://github.com/dsc530/tasa\_cancelacion}{github.com/dsc530/tasa\_cancelacion}}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Preprocessed 3 datasets (One-Hot Encoding, SMOTE, Min-Max scaling); compared Logistic Regression, Decision Tree, Random Forest, XGBoost
+    \item Selected Random Forest after hyperparameter tuning: \textbf{AUC-ROC 0.86}, accuracy 0.77; feature importance analysis directed retention actions
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{2025}{Customer Prediction \& Segmentation --- Insurance}{\href{https://github.com/dsc530/Seguros.git}{github.com/dsc530/Seguros}}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built KNN classifier for benefits prediction; verified data obfuscation did not degrade RMSE or R² on linear regression model
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{2025}{Online Vehicle Sales --- Market Value Prediction}{\href{https://github.com/dsc530/precio\_vehiculos.git}{github.com/dsc530/precio\_vehiculos}}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Compared Linear Regression, Random Forest, LightGBM, CatBoost; selected \textbf{LightGBM} for best accuracy/speed trade-off; applied Box-Cox transformation and ordinal + one-hot encoding
 \end{itemize}}}
 
 \end{itemize}
@@ -114,16 +148,23 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2009--2015}{Ingeniero en Electrónica, Automatización y Control}{Universidad de las Fuerzas Armadas ESPE}{Quito, Ecuador}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{Completed Mar 2025}{Data Scientist Bootcamp (9 months)}{TripleTen}{Online}{}{%
+\vspace{1pt}Curriculum: Python, SQL, supervised/unsupervised ML, time series, NLP, computer vision, linear algebra, numerical methods. Certificate \#202501DSES0000904.}}
 
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item PCAP --- Python Programming (Python Institute / ESPOL); Introduction to IoT (Cisco); Data Science Orientation (IBM); Introduction to Cybersecurity (Cisco); HarvardX PH125.1x Data Science: R Basics (edX); LabVIEW Programmer; Git \& GitHub; HTML/CSS; Java Programming.
 \end{itemize}
 
 % ============================================================
@@ -133,27 +174,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Spanish (native), English (full professional --- TOEFL IBT 94, 2022).
 \end{itemize}
 
 % ============================================================

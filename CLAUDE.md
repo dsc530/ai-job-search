@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Daniel Cumbal
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Daniel Cumbal, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,78 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Daniel Steven Cumbal Suárez Avilés
+- **Location:** Quito, Ecuador
+- **Email:** dsc_530@hotmail.com
+- **Phone:** +593984256115
+- **LinkedIn:** https://www.linkedin.com/in/daniel-cumbal/
+- **GitHub:** https://github.com/dsc530
+- **Portfolio:** https://dsc530.github.io/
+- **Languages:** Español (nativo), Inglés (Full Professional — TOEFL IBT 94, 2022)
+- **Status:** Activo — Administrador General, Itecnologia EC (negocio propio)
+- **LinkedIn headline:** "Ing. Electrónico | Data Scientist | Machine Learning | Python & SQL | Automatización"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Data Scientist Bootcamp** (completado Mar 2025) - TripleTen (Online, 9 meses) — Cert. #202501DSES0000904
+  - Topics: Python, SQL, ML supervisado/no supervisado, series temporales, NLP, visión artificial, álgebra lineal, métodos numéricos
+- **Ingeniero en Electrónica, Automatización y Control** (2009–2015) - Universidad de las Fuerzas Armadas ESPE
+  - Registro SNIESE N° 1079-15-1405298, fecha 2015-09-17
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **General Manager** (Oct 2023 – Actual) - **Itecnologia EC / Negocio Propio** (Quito)
+  - Migración a SQL Server + automatización con n8n
+  - Desarrollo de e-commerce con Claude Code (en producción)
+  - Gestión de clientes y análisis de ingresos/gastos
+- **Cell Repair Technician** (Oct 2022 – Sep 2023) - **Smartbuy** (Quito)
+  - Análisis de fallos recurrentes, guías para clientes, informes para dirección
+- **Support Engineer** (Oct 2015 – Ene 2020) - **Uniscan Cia. Ltda.** (Quito)
+  - Reducción del 50% en tickets mediante programa de capacitación
+  - Proyecto DGRC 2017–2019: mantenimiento Zebra ZXP7, contrato $207.503 USD
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (Pandas, NumPy, Scikit-learn, LightGBM, XGBoost, CatBoost), SQL/SQL Server, Power BI
+- **Secondary:** Matplotlib, Seaborn, Plotly, n8n, Git, TensorFlow, Java, HTML/CSS
+- **Domain:** Soporte técnico hardware/software, gestión de contratos gubernamentales, análisis de negocio en PyMEs
+- **Software:** Microsoft Office, LabVIEW
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Data Scientist Bootcamp** - TripleTen - completado Mar 2025
+- **PCAP Python Programming** - Python Institute / ESPOL
+- **Introduction to IoT** - Cisco Networking Academy
+- **Data Science Orientation** - IBM
+- **Introduction to Cybersecurity** - Cisco
+- **HarvardX PH125.1x** - edX (R Basics / Data Science)
+- Git & GitHub, HTML/CSS, Java, Lógica de Programación (Platzi/otros)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- Ninguna hasta la fecha.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Ninguno hasta la fecha.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Autodidacta** - Realizó transición de carrera de soporte técnico a Data Science de forma independiente
+- **Orientado a negocio** - Enfoca soluciones técnicas en impacto medible en decisiones empresariales
+- **Resolutivo** - Historial consistente de resolución de problemas complejos en contextos técnicos y operativos
+- **Strengths:** Aprendizaje autónomo, comunicación con usuarios no técnicos, gestión de proyectos con restricciones reales
+- **Growth areas:** Experiencia formal en datos (en construcción), herramientas cloud (AWS/Azure/Databricks)
+- **Thrives in:** Entornos donde los datos tienen impacto en decisiones reales, roles con autonomía técnica, equipos pequeños
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Aplicar ML y análisis de datos a problemas concretos de negocio con impacto medible
+- Automatización de procesos y construcción de pipelines de datos
+- Crecer hacia Data Engineering y arquitecturas de datos más complejas
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Banca / Fintech:** Banco Pichincha, Produbanco, Banco del Pacífico, startups fintech ecuatorianas
+- **Tecnología / Startups:** Empresas tech con operaciones en Ecuador o remotas para LATAM
+- **Deportes:** Cualquier organización deportiva con operaciones de datos (preferentemente remoto)
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Posiciones presenciales fuera de Ecuador (evaluable si la remuneración es excepcional)
+- Salario inferior a USD 700/mes
+- Roles puramente de soporte técnico sin componente analítico (retroceso en carrera)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
